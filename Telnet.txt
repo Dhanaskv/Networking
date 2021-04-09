@@ -1,0 +1,23 @@
+#Telnet is used to access remote servers
+
+telnet runs on port 23
+
+telnet is not secure protocol because it sends data in plain-txt format including username and passwords also
+
+[ telnet hostname/IP address ]
+
+#install the telnet in ubuntu
+
+sudo apt update
+
+sudo apt install telnetd -y
+
+sudo systemctl status inetd
+
+sudo ufw allow 23/tcp
+
+sudo ufw reload
+
+telnet localhost
+
+
