@@ -1,0 +1,45 @@
+#what is ip address
+
+IP address is uniquely identifies each device connected to internet
+
+There are two versions of addresses is there:
+
+1)ipv4 address(32-bit address)
+2)ipv6 address(128-bit address)
+
+there are few types of ip address is there:
+1)public ip
+2)private ip
+3)static ip
+4)dynamic ip
+
+
+1)public ip:
+
+enter below command in cli:
+curl ifconfig.me
+
+public ip is used to communicate  outside of network
+public ip is assigned to your internet service provider
+
+2)private ip:
+
+enter below command :
+
+hostname -I
+ifconfig -a
+
+private ip is used to communicate same network
+it works only in LAN
+
+
+3)static ip :
+
+static ip is does not change anytime
+static ip is assigned to ISP
+
+4)dynamic ip:
+
+dynamic ip is change any time
+
+dynamic ip is assigned to DHCP 
